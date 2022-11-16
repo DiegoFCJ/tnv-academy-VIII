@@ -1,148 +1,192 @@
 {
-    "drinkCards": [
-      {
-        "id": 1,
-        "category": "drinks",
-        "title": "Beer",
-        "description": "When adults think of pizza, they almost automatically think about having a cold beer too.",
-        "imageUrl": "https://images.pexels.com/photos/991970/pexels-photo-991970.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-        "price": 0.12,
-        "available": true,
-        "ingredients": [
-          "water",
-          "grain",
-          "hops",
-          "yeast"
-        ],
-        "nutritionalValues": {
-          "Calories": "99.4",
-          "Carbohydrates": "3g",
-          "Sugars": "0g",
-          "Protein": "0.7g",
-          "Fat": "0g",
-          "Sodium": "10.6mg",
-          "Fiber": "0g"
-        }
-      },
-      {
-        "id": 2,
-        "category": "drinks",
-        "title": "Cocktail",
-        "description": "The endless creativity of cocktails lends itself well to the innovative world of pizza making",
-        "imageUrl": "https://images.pexels.com/photos/1189257/pexels-photo-1189257.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-        "price": 5,
-        "available": true,
-        "ingredients": [
-          "water",
-          "grain",
-          "hops",
-          "yeast"
-        ],
-        "nutritionalValues": {
-          "Calories": "99.4",
-          "Carbohydrates": "3g",
-          "Sugars": "0g",
-          "Protein": "0.7g",
-          "Fat": "0g",
-          "Sodium": "10.6mg",
-          "Fiber": "0g"
-        }
-      },
-      {
-        "id": 3,
-        "category": "drinks",
-        "title": "Soda",
-        "description": "Most of us drank soda with it! In italy the tradition is to eat pizza on Saturday",
-        "imageUrl": "https://images.pexels.com/photos/3407777/pexels-photo-3407777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-        "price": 2.50,
-        "available": true,
-        "ingredients": [
-          "water",
-          "grain",
-          "hops",
-          "yeast"
-        ],
-        "nutritionalValues": {
-          "Calories": "99.4",
-          "Carbohydrates": "3g",
-          "Sugars": "0g",
-          "Protein": "0.7g",
-          "Fat": "0g",
-          "Sodium": "10.6mg",
-          "Fiber": "0g"
-        }
-      },
-      {
-        "id": 4,
-        "category": "drinks",
-        "title": "Iced Tea",
-        "description": "Iced tea and pizza remain an iconic summertime combination. There is nothing more refreshing than washing down a slice of pizza with ice-cold iced tea.",
-        "imageUrl": "https://images.pexels.com/photos/1141626/pexels-photo-1141626.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-        "price": 3,
-        "available": true,
-        "ingredients": [
-          "water",
-          "grain",
-          "hops",
-          "yeast"
-        ],
-        "nutritionalValues": {
-          "Calories": "99.4",
-          "Carbohydrates": "3g",
-          "Sugars": "0g",
-          "Protein": "0.7g",
-          "Fat": "0g",
-          "Sodium": "10.6mg",
-          "Fiber": "0g"
-        }
-      },
-      {
-        "id": 5,
-        "category": "drinks",
-        "title": "Wine",
-        "description": "Wine famously pairs perfectly with Italian foods. While not necessarily a natural combination, wine is a delicious drink to pair with pizza. ",
-        "imageUrl": "https://images.pexels.com/photos/3019019/pexels-photo-3019019.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-        "price": 25,
-        "available": true,
-        "ingredients": [
-          "water",
-          "grain",
-          "hops",
-          "yeast"
-        ],
-        "nutritionalValues": {
-          "Calories": "99.4",
-          "Carbohydrates": "3g",
-          "Sugars": "0g",
-          "Protein": "0.7g",
-          "Fat": "0g",
-          "Sodium": "10.6mg",
-          "Fiber": "0g"
-        }
-      },
-      {
-        "id": 6,
-        "category": "drinks",
-        "title": "Sparkling Drink",
-        "description": "Why drink boring still water when you can have a few bubbles? I know it seems just water but i ensure this is more than just water",
-        "imageUrl": "https://images.pexels.com/photos/4085278/pexels-photo-4085278.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-        "price": 0,
-        "available": true,
-        "ingredients": [
-          "water",
-          "grain",
-          "hops",
-          "yeast"
-        ],
-        "nutritionalValues": {
-          "Calories": "99.4",
-          "Carbohydrates": "3g",
-          "Sugars": "0g",
-          "Protein": "0.7g",
-          "Fat": "0g",
-          "Sodium": "10.6mg",
-          "Fiber": "0g"
-        }
+  "pizzaDiegoDb": [
+    {
+      "id": 1,
+      "category": "drinkCards",
+      "title": "Beer",
+      "description": "When adults think of pizza, they almost automatically think about having a cold beer too.",
+      "imageUrl": "https://images.pexels.com/photos/991970/pexels-photo-991970.jpeg",
+      "price": 0.12,
+      "available": true,
+      "ingredients": [
+        "water",
+        "grain",
+        "hops",
+        "yeast"
+      ],
+      "nutritionalValues": {
+        "Calories": "99.4",
+        "Carbohydrates": "3g",
+        "Sugars": "0g",
+        "Protein": "0.7g",
+        "Fat": "0g",
+        "Sodium": "10.6mg",
+        "Fiber": "0g"
       }
-    ]
+    },
+    {
+      "id": 2,
+      "category": "drinkCards",
+      "title": "Cocktail",
+      "description": "The endless creativity of cocktails lends itself well to the innovative world of pizza making",
+      "imageUrl": "https://images.pexels.com/photos/1189257/pexels-photo-1189257.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "price": 5,
+      "available": true,
+      "ingredients": [
+        "water",
+        "grain",
+        "hops",
+        "yeast"
+      ],
+      "nutritionalValues": {
+        "Calories": "99.4",
+        "Carbohydrates": "3g",
+        "Sugars": "0g",
+        "Protein": "0.7g",
+        "Fat": "0g",
+        "Sodium": "10.6mg",
+        "Fiber": "0g"
+      }
+    },
+    {
+      "id": 3,
+      "category": "drinkCards",
+      "title": "Soda",
+      "description": "Most of us drank soda with it! In italy the tradition is to eat pizza on Saturday",
+      "imageUrl": "https://images.pexels.com/photos/3407777/pexels-photo-3407777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "price": 2.50,
+      "available": true,
+      "ingredients": [
+        "water",
+        "grain",
+        "hops",
+        "yeast"
+      ],
+      "nutritionalValues": {
+        "Calories": "99.4",
+        "Carbohydrates": "3g",
+        "Sugars": "0g",
+        "Protein": "0.7g",
+        "Fat": "0g",
+        "Sodium": "10.6mg",
+        "Fiber": "0g"
+      }
+    },
+    {
+      "id": 4,
+      "category": "drinkCards",
+      "title": "Iced Tea",
+      "description": "Iced tea and pizza remain an iconic summertime combination. There is nothing more refreshing than washing down a slice of pizza with ice-cold iced tea.",
+      "imageUrl": "https://images.pexels.com/photos/1141626/pexels-photo-1141626.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "price": 3,
+      "available": true,
+      "ingredients": [
+        "water",
+        "grain",
+        "hops",
+        "yeast"
+      ],
+      "nutritionalValues": {
+        "Calories": "99.4",
+        "Carbohydrates": "3g",
+        "Sugars": "0g",
+        "Protein": "0.7g",
+        "Fat": "0g",
+        "Sodium": "10.6mg",
+        "Fiber": "0g"
+      }
+    },
+    {
+      "id": 5,
+      "category": "drinkCards",
+      "title": "Wine",
+      "description": "Wine famously pairs perfectly with Italian foods. While not necessarily a natural combination, wine is a delicious drink to pair with pizza. ",
+      "imageUrl": "https://images.pexels.com/photos/3019019/pexels-photo-3019019.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "price": 25,
+      "available": true,
+      "ingredients": [
+        "water",
+        "grain",
+        "hops",
+        "yeast"
+      ],
+      "nutritionalValues": {
+        "Calories": "99.4",
+        "Carbohydrates": "3g",
+        "Sugars": "0g",
+        "Protein": "0.7g",
+        "Fat": "0g",
+        "Sodium": "10.6mg",
+        "Fiber": "0g"
+      }
+    },
+    {
+      "id": 6,
+      "category": "drinkCards",
+      "title": "Sparkling Drink",
+      "description": "Why drink boring still water when you can have a few bubbles? I know it seems just water but i ensure this is more than just water",
+      "imageUrl": "https://images.pexels.com/photos/4085278/pexels-photo-4085278.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "price": 0,
+      "available": true,
+      "ingredients": [
+        "water",
+        "grain",
+        "hops",
+        "yeast"
+      ],
+      "nutritionalValues": {
+        "Calories": "99.4",
+        "Carbohydrates": "3g",
+        "Sugars": "0g",
+        "Protein": "0.7g",
+        "Fat": "0g",
+        "Sodium": "10.6mg",
+        "Fiber": "0g"
+      }
+    },
+    {
+      "id": 7,
+      "category": "choicesOnLanding",
+      "title": "Ingredients",
+      "imageUrl": "https://images.pexels.com/photos/6605171/pexels-photo-6605171.jpeg?cs=srgb&dl=pexels-kampus-production-6605171.jpg&fm=jpg",
+      "href": "#ingredintsAndNutritional"
+    },
+    {
+      "id": 8,
+      "category": "choicesOnLanding",
+      "title": "Nutritional table",
+      "imageUrl": "https://images.pexels.com/photos/128402/pexels-photo-128402.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "href": "#ingredintsAndNutritional"
+    },
+    {
+      "id": 9,
+      "category": "choicesOnLanding",
+      "title": "How To Make It",
+      "imageUrl": "https://images.pexels.com/photos/5953496/pexels-photo-5953496.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "href": "#howToMakeThisPizza"
+    },
+    {
+      "id": 10,
+      "category": "choicesOnLanding",
+      "title": "Drinks",
+      "imageUrl": "https://images.pexels.com/photos/667986/pexels-photo-667986.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "href": "#drinks"
+    },
+    {
+      "id": 11,
+      "category": "choicesOnLanding",
+      "title": "Other Choices",
+      "imageUrl": "https://images.pexels.com/photos/6605171/pexels-photo-6605171.jpeg?cs=srgb&dl=pexels-kampus-production-6605171.jpg&fm=jpg",
+      "href": "#ingredintsAndNutritional"
+    },
+    {
+      "id": 12,
+      "category": "choicesOnLanding",
+      "title": "Contacts",
+      "imageUrl": "https://images.pexels.com/photos/6605171/pexels-photo-6605171.jpeg?cs=srgb&dl=pexels-kampus-production-6605171.jpg&fm=jpg",
+      "href": "#ingredintsAndNutritional"
+    }
+
+  ]
+
 }
