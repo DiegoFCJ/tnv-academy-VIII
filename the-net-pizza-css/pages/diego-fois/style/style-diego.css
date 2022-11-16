@@ -90,9 +90,8 @@ body {
   flex-direction: center;
   align-items: center;
   justify-content: center;
-  padding-top: 10%;
   color: #26120B;
-  font-size: 50px;
+  font-size: 45px;
 }
 
 
@@ -117,8 +116,14 @@ aside {
 }
 
 /* **************** single ads on the right *************** */
+#corrList ul{
+  padding-inline-start: 0px;
+  
+}
+
 #corrList ul li{
   text-align: center;
+  list-style-type: none;
 }
 
 #corrList ul li img{

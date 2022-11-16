@@ -12,6 +12,7 @@ function scrollFunction() {
     document.getElementById("nameAndDescr").style.visibility = "hidden";
     document.getElementById("choice").style.visibility = "hidden";
     document.getElementById("b").style.backgroundImage = "url(../diego-fois/images/background-image.jpg)";
+    document.getElementById("choicesText").style.visibility = "hidden";
 
   } else {
     document.getElementById("navbar").style.height = "100%";
@@ -20,6 +21,7 @@ function scrollFunction() {
     document.getElementById("choice").style.visibility = "visible";
     document.getElementById("b").style.backgroundImage = null;
     document.getElementById("b").style.paddingTop = "44%";
+    document.getElementById("choicesText").style.visibility = "visible";
   } 
 }
 
