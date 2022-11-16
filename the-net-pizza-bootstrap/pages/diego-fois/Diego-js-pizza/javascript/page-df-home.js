@@ -16,15 +16,16 @@ const buildChoicesMenu = (menuItems, sectionName) => {
 
 const buildChoicesCard = (item) => {
     return `
-        <a 
-        class="card"
-        href="${item.href}"
-        >
-            <img src="${item.imageUrl}" alt="${item.title}" style="height: 220px;">
-            <div class="card-img-overlay">
-                <h5 class="card-title text-bg-light fw-bold fs-3 text-center">${item.title}</h5>
-            </div>
-        </a>`;
+    <a 
+    class="card"
+    href="${item.href}"
+    >
+        <img src="${item.imageUrl}" alt="${item.title}" style="height: 220px;">
+        <div class="card-img-overlay">
+            <h5 class="card-title text-bg-light fw-bold fs-3 text-center">${item.title}</h5>
+        </div>
+    </a>`;
+        
 };
 
 
@@ -63,9 +64,10 @@ const buildDrinksCard = (item) => {
 
 
 /** build page */
-/*
-const buildPage = (menuItems) => {
 
+const buildPage = (menuItems) => {
+    buildDrinksMenu(menuItems, 'drinkCards');
+    buildChoicesMenu(menuItems, 'choicesOnLanding');
 }
 
 
@@ -73,7 +75,5 @@ const buildPage = (menuItems) => {
 
 fetch('https://my-json-server.typicode.com/DiegoFCJ/pizza_fake_db/pizzaDiegoDb')
 .then((res) => res.json())
-.then((res) => buildDrinksMenu(res, 'drinkCards'))
-.then((res) => buildChoicesMenu(res, 'choicesOnLanding'))
-;
+.then((res) => buildPage(res));
 
