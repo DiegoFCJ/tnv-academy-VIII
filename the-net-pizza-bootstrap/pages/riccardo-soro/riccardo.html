@@ -1,39 +1,261 @@
 <!DOCTYPE html>
-<html>
-<a href="http://127.0.0.1:5500/index.html">Back</a>    
+<html>  
 <head>
-        <title>Pizza King Richard the Lioneheart</title>
-    </head>
+    <title>King Richard the Lioneheart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel = "stylesheet" href = "styles/style.css"/>
+</head>
     <body>
-        <h1>Pizza King Richard the Lioneheart</h1>
-        <h3>La tradizione napoletana incontra la nobiltà inglese</h3>
+    <header>    
+        <h1>King Richard</h1>
+        <h2>THE LIONEHEART</h2>
+        <span>La tradizione napoletana incontra la nobiltà inglese</span>
+    </header>
+
+        <!-- MAIN NAVIGATION -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">THE NET PIZZA</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">I nostri piatti</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contatti</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Cerca" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+        <!---MAIN CONTENT-->
         
-        <img src="images/pizzariccardo.jpg" width="600"/>
+          <div class="container">
+            <section class="menu">
+              <div class="row">
+                <div class="col-12">
+                  <h2 class="section-title">Ingredienti:</h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 pt-5 pb-2">
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 py-2">
+                  <div class="card shadow">
+                    <img
+                      src="images/Lievito-di-birra-fresco-e-secco-2.jpg"
+                      class="card-img-top"
+                      alt="Lievito di birra"
+                    />
+                  <div class="card-body">
+                    <h5>Lievito di birra</h5>
+                    <p class="card-text"> Il lievito di birra è un lievitante utilizzato nella produzione di pane e birra. E' un probiotico molto utile nella digestione.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-3 py-2">
+                <div class="card shadow">
+                  <img
+                    src="images/farina-bianca.jpg"
+                    class="card-img-top"
+                    alt="Farina 00"
+                  />
+                  <div class="card-body">
+                    <h5>Farina 00</h5>
+                    <p class="card-text">La farina 00 è un derivato della lavorazione dei cereali ricavato dalla macinatura dei semi di grano tenero.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-3 py-2">
+                <div class="card shadow">
+                  <img
+                    src="images/passata-di-pomodoro.jpg"
+                    class="card-img-top"
+                    alt="Sugo di pomodoro"
+                  />
+                  <div class="card-body">
+                    <h5>Sugo di pomodoro</h5>
+                    <p class="card-text">Il sugo di pomodoro è una conserva ottenuta dalla spremitura dei pomodori e dalla cottura della loro salsa.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-3 py-2">
+                <div class="card shadow">
+                  <img
+                    src="images/SH_mozzarella_fatta_in_casa.jpg"
+                    class="card-img-top"
+                    alt="Mozzarella"
+                  />
+                  <div class="card-body">
+                    <h5>Mozzarella</h5>
+                    <p class="card-text">La mozzarella è un formaggio fresco a pasta filata preparata con latte vaccino o bufalino.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-3 py-2">
+                <div class="card shadow">
+                  <img
+                    src="images/tonno-alla-griglia.jpg"
+                    class="card-img-top"
+                    alt="Tonno"
+                  />
+                  <div class="card-body">
+                    <h5>Tonno</h5>
+                    <p class="card-text">Il tonno è un pesce dalla carne tenera e dalle molteplici proprietà salutari.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-3 py-2">
+                <div class="card shadow">
+                  <img
+                    src="images/cipolla-tropea-1.jpg"
+                    class="card-img-top"
+                    alt="Cipolla di tropea"
+                  />
+                  <div class="card-body">
+                    <h5>Cipolla di Tropea</h5>
+                    <p class="card-text">La cipolla rossa di Tropea è una cipolla coltivata in Calabria, dal gusto determinato e ricca di proprietà benefiche.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-3 py-2">
+                <div class="card shadow">
+                  <img
+                    src="images/tartufo-toscana.jpg"
+                    class="card-img-top"
+                    alt="Tartufo nero"
+                  />
+                  <div class="card-body">
+                    <h5>Tartufo nero</h5>
+                    <p class="card-text">Il tartufo è un tubero pregiato dal gusto ricercato e usato per impreziosire molti piatti.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-3 py-2">
+                <div class="card shadow">
+                  <img
+                    src="images/pulire-il-basilico-1657544689.jpg"
+                    class="card-img-top"
+                    alt="Basilico"
+                  />
+                  <div class="card-body">
+                    <h5>Basilico</h5>
+                    <p class="card-text">Il basilico è una pianta erbacea comunemente usata nella cucina, dato il suo aroma e la sua freschezza.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-3 py-2">
+                <div class="card shadow">
+                  <img
+                    src="images/olio_evo_proprieta_apertura.jpg"
+                    class="card-img-top"
+                    alt="Olio evo"
+                  />
+                  <div class="card-body">
+                    <h5>Olio evo</h5>
+                    <p class="card-text">L'olio evo è un olio alimentare estratto dalla spremitura delle olive, prodotto della tradizione agroalimentare del Mediterraneo.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-3 py-2">
+                <div class="card shadow">
+                  <img
+                    src="images/shutterstock_664514650.jpg"
+                    class="card-img-top"
+                    alt="Sale dell'Himalaya"
+                  />
+                  <div class="card-body">
+                    <h5>Sale dell'Himalaya</h5>
+                    <p class="card-text">Il sale dell'Himalaya è un sale da cucina proveniente dal Pakistan.</p>
+                  </div>
+                </div>
+              </div>
 
-        <ul>
-            <li><a href="https://it.wikipedia.org/wiki/Saccharomyces_cerevisiae">Lievito di birra</a></li>
-            <li><a href="https://it.wikipedia.org/wiki/Farina">Farina tipo 00</a></li>
-            <li><a href="https://it.wikipedia.org/wiki/Salsa_di_pomodoro">Sugo di pomodoro</a></li>
-            <li><a href="https://it.wikipedia.org/wiki/Mozzarella_di_bufala_campana">Mozzarella</a></li>
-            <li><a href="https://it.wikipedia.org/wiki/Thunnus">Tonno</a></li>
-            <li><a href="https://it.wikipedia.org/wiki/Cipolla_rossa_di_Tropea_Calabria">Cipolla di tropea</a></li>
-            <li><a href="https://it.wikipedia.org/wiki/Tartufo">Tartufo</a></li>
-            <li><a href="https://it.wikipedia.org/wiki/Ocimum_basilicum">Basilico</a></li>
-            <li><a href="https://it.wikipedia.org/wiki/Olio_di_oliva">Olio evo</a></li>
-            <li><a href="https://it.wikipedia.org/wiki/Sale_rosa_dell%27Himalaya">Sale rosa dell'Himalaya</a></li>
-        </ul><br>
+            <section class="ricetta">
+              <div class="row">
+                <div class="col-12">
+                  <h2 class="section-title">Ricetta:</h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col 12 pt-5 pb-2"></div>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/pizza-01.jpg" class="d-block w-100" alt="Impasto della pizza">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/pizza-02.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/pizza-03.jpg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                  <p>Versa la farina in una ciotola e sbriciola dentro il lievito di birra. Aggiungi l'acqua fino a ottenere una massa malleabile.
+                    Continua a lavorare l'impasto a mano (o con la planetaria) finché non è più appiccicoso. Aggiungi una presa di sale e fai lievitare 6 ore.
+                    Stendi l'impasto e lascia riposare in una teglia oliata per 30 minuti. Spolvera l'impasto di farina e stendilo di nuovo.
+                    Condisci con il sugo di pomodoro e metti in forno a 250° per 6 minuti. Aggiungi la mozzarella, il tonno, la cipolla di tropea, il tartufo
+                    e un giro di olio extravergine d'oliva. Togli la pizza dal forno e rifinisci con il basilico fresco e il sale dell'Himalaya.
+                    La tua King Richard è pronta!
+                  </p>
+                </div>
+              </div>
+            </section>
+              
+              <h2 class="section-title">Allergeni:</h2>
+              <section class="allergeni">
+                <div class="row">
+                  <div class="col">
+                    <img src="images/uova_colore.png" alt="">
+                  </div>
+                  <div class="col">
+                    <img src="images/crostacei_colore.png" alt="">
+                  </div>
+                  <div class="col">
+                    <img src="images/glutine_colore.png" alt="">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <img src="images/uova_colore.png" alt="">
+                  </div>
+                  <div class="col">
+                    <img src="images/frutti_bosco_colore.png" alt="">
+                  </div>
+                  <div class="col">
+                    <img src="images/pesce_colore.png" alt="">
+                  </div>
+                </div>
+              </section>
 
-        <h2><strong>Ricetta:</strong></h2>
-        <p>Versa la farina in una ciotola e sbriciola dentro il lievito di birra. Aggiungi l'acqua fino a ottenere una massa malleabile.<br>
-            Continua a lavorare l'impasto a mano (o con la planetaria) finché non è più appiccicoso. Aggiungi una presa di sale e fai lievitare 6 ore.<br>
-            Stendi l'impasto e lascia riposare in una teglia oliata per 30 minuti. Spolvera l'impasto di farina e stendilo di nuovo.<br>
-            Condisci con il sugo di pomodoro e metti in forno a 250° per 6 minuti. Aggiungi la mozzarella, il tonno, la cipolla di tropea, il tartufo<br>
-            e un giro di olio extravergine d'oliva. Togli la pizza dal forno e rifinisci con il basilico fresco e il sale dell'Himalaya.<br>
-            La tua King Richard è pronta!<br>
-        </p>
-
-        <h2>Valori nutrizionali</h2>
-        <table border="1">
+              <a id="valori-nutrizionali"></a>
+            <section class = "valori-nutrizionali">
+            <h2 class = "section-title">Valori nutrizionali:</h2>
+            <table border="1">
             <thead>
                 <tr>
                     <th>Nutrienti principali</th>
@@ -78,6 +300,90 @@
                     <td>mg</td>
                 </tr>
             </body>
-        </table>
+            </table>
+            </section>
+
+              
+    
+            </section>
+          </div>
+
+
+
+
+
+        <!---FOOTER-->
+
+        <footer class = "container-fluid p-2 p-lg-5">
+          <div class = "row">
+            <section class = "opening hours col-12 col-lg-4">
+              <h2 class = "footer-section-title">Orari di apertura</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Giorno</th>
+                    <th>Mattina</th>
+                    <th>Pomeriggio</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>Lunedì</th>
+                    <th>Chiuso</th>
+                    <th>Chiuso</th>
+                  </tr>
+                  <tr>
+                    <th>Martedì</th>
+                    <th>12:00 - 15:00</th>
+                    <th>19:00 - 23:00</th>
+                  </tr>
+                  <tr>
+                    <th>Mercoledì</th>
+                    <th>12:00 - 15:00</th>
+                    <th>19:00 - 23:00</th>
+                  </tr>
+                  <tr>
+                    <th>Giovedì</th>
+                    <th>12:00 - 15:00</th>
+                    <th>19:00 - 23:00</th>
+                  </tr>
+                  <tr>
+                    <th>Venerdì</th>
+                    <th>12:00 - 15:00</th>
+                    <th>19:00 - 23:00</th>
+                  </tr>
+                  <tr>
+                    <th>Sabato</th>
+                    <th>12:00 - 15:00</th>
+                    <th>19:00 - 23:00</th>
+                  </tr>
+                  <tr>
+                    <th>Domenica</th>
+                    <th>12:00 - 15:00</th>
+                    <th>19:00 - 23:00</th>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <section class="where-we-are col-12 col-lg-4">
+              <h2 class = "footer-section-title">Dove siamo</h2>
+              <iframe
+              width="100%"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=8.286395072937013%2C39.97725164260922%2C8.323259353637697%2C40.000563846393405&amp;layer=mapnik&amp;marker=39.988909359691846%2C8.304836049999949"
+              style="border: 1px solid black"
+              ></iframe>
+            </section>
+            <section class="social col-12 col-lg-4">
+              <h2 class="footer-section-title">Social</h2>
+              <h5>Seguici sui nostri social</h5>
+            </section>
+          </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     </body>
 </html>

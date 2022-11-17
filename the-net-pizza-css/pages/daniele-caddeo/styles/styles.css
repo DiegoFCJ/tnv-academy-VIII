@@ -1,0 +1,54 @@
+header {
+    background-image:url("../images/woman pizza.jpg");
+    height: 400px;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    color: rgb(7, 7, 7);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    text-shadow: 1px 1px 3px rgb(255, 255, 255);
+}
+
+#warning {
+    color: rgb(26 25 25);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 6px;
+
+}
+
+#warning span {
+    color: rgb(235 23 23);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 6px;
+
+}
+
+.sottotitolo-1 {
+    color: rgb(14, 14, 14);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.ingredienti {
+    color: rgb(22 22 22);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+
+.tabella {
+    color: rgb(22 21 21);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+}
+
+footer {
+    color: rgb(7, 7, 7);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+}

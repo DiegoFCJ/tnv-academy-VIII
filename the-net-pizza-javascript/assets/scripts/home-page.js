@@ -37,6 +37,12 @@ const buildPage = (piatti) => {
     buildSection(piatti, 'dolci');
 }
 
+const showError = () => {
+  const errorsElement = [...document.querySelectorAll('.tnv-error')];
+  errorsElement.forEach(x => x.style.display = 'inline');
+}
+
 fetch("https://my-json-server.typicode.com/michelefenu/tnv-academy-VIII/piatti")
-  .then((res) => res.json())
-  .then((res) => buildPage(res));
+  .then((response) => response.json())
+  .then((response) => buildPage(response))
+  .catch((err) => showError());
