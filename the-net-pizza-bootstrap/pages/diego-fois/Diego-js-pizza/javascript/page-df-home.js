@@ -75,5 +75,7 @@ const buildPage = (menuItems) => {
 
 fetch('https://my-json-server.typicode.com/DiegoFCJ/pizza_fake_db/pizzaDiegoDb')
 .then((res) => res.json())
-.then((res) => buildPage(res));
+.then((res) => buildPage(res));/*
+.then((res) => buildDrinksMenu(menuItems, 'drinkCards'))
+.then((res) => buildChoicesMenu(menuItems, 'choicesOnLanding'));*/
 
