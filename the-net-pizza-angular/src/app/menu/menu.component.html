@@ -1,1 +1,13 @@
-<p>menu works!</p>
+<section class="menu">
+  <div class="row">
+    <div class="col-12">
+      <h2 class="section-title">I Nostri Piatti</h2>
+      <div class="separator"></div>
+    </div>
+  </div>
+  <app-menu-section 
+    *ngFor="let category of categories" 
+    [title]="category" [menuItems]="getMenuItemsByCategory(category)">
+  </app-menu-section>
+  
+</section>

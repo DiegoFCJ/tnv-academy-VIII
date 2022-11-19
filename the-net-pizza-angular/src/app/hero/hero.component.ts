@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { appDescription, appTitle } from 'src/models/labels';
 
 @Component({
   selector: 'app-hero',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./hero.component.scss']
 })
 export class HeroComponent implements OnInit {
+
+  title = appTitle;
+  subtitle = appDescription;
 
   constructor() { }
 

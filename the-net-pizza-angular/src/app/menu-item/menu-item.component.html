@@ -1,0 +1,13 @@
+<div class="card shadow" [class.notavailable]="!menuItem.available">
+  <img
+    [src]="menuItem.imageUrl"
+    class="card-img-top"
+    [alt]="menuItem.title"
+  />
+  <div class="card-body">
+    <h5 class="card-title">{{ menuItem.title }} - {{menuItem.price | currency:'€'}}</h5>
+    <p class="card-text">
+      {{ menuItem.description }}
+    </p>
+  </div>
+</div>

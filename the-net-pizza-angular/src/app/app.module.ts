@@ -9,6 +9,9 @@ import { MenuComponent } from './menu/menu.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { FooterComponent } from './footer/footer.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ChiSiamoComponent } from './chi-siamo/chi-siamo.component';
+import { MenuSectionComponent } from './menu-section/menu-section.component';
+import { MenuItemComponent } from './menu-item/menu-item.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     HeroComponent,
     MenuComponent,
     ContactsComponent,
-    FooterComponent
+    FooterComponent,
+    ChiSiamoComponent,
+    MenuSectionComponent,
+    MenuItemComponent,
   ],
   imports: [
     BrowserModule,
