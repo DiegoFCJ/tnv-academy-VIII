@@ -5,7 +5,8 @@
     [alt]="menuItem.title"
   />
   <div class="card-body">
-    <h5 class="card-title">{{ menuItem.title }} - {{menuItem.price | currency:'€'}}</h5>
+    <h5 class="card-title"><a [routerLink]="['/menu', menuItem.id]">{{ menuItem.title }}</a> - {{menuItem.price | currency:'€'}}</h5>
+    <a [routerLink]="['/administration', menuItem.id]">Modifica</a>
     <p class="card-text">
       {{ menuItem.description }}
     </p>

@@ -5,9 +5,13 @@
       <div class="separator"></div>
     </div>
   </div>
-  <app-menu-section 
-    *ngFor="let category of categories" 
-    [title]="category" [menuItems]="getMenuItemsByCategory(category)">
-  </app-menu-section>
-  
+  <p *ngIf="!piatti?.length">Caricamento in corso...</p>
+  <div *ngIf="piatti?.length">
+    <app-menu-section
+      *ngFor="let category of categories"
+      [title]="category"
+      [menuItems]="getMenuItemsByCategory(category)"
+    >
+    </app-menu-section>
+  </div>
 </section>

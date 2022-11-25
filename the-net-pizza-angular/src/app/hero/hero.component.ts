@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { appDescription, appTitle } from 'src/models/labels';
+import { MenuService } from '../@services/menu.service';
 
 @Component({
   selector: 'app-hero',
@@ -11,7 +12,8 @@ export class HeroComponent implements OnInit {
   title = appTitle;
   subtitle = appDescription;
 
-  constructor() { }
+  constructor() { 
+  }
 
   ngOnInit(): void {
   }

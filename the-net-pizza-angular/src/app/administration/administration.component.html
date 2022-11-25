@@ -1,0 +1,105 @@
+<div class="container">
+  <section class="menu">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="section-title" *ngIf="!isEditMode">Aggiungi un Piatto</h2>
+        <h2 class="section-title" *ngIf="isEditMode">Modifica un Piatto</h2>
+        <div class="separator"></div>
+      </div>
+    </div>
+
+    <form class="row" #f="ngForm" (ngSubmit)="onSubmit(f)">
+      <div class="col-md-4 mb-3">
+        <label for="category" class="form-label">Categoria</label>
+        <select
+          [(ngModel)]="menuItem.category"
+          name="category"
+          id="category"
+          class="form-select"
+        >
+          <option value="antipasti">Antipasto</option>
+          <option value="primi">Primi</option>
+          <option value="pizze">Pizze</option>
+          <option value="dolci">Dolci</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label for="title" class="form-label">* Nome</label>
+        <input
+          [(ngModel)]="menuItem.title"
+          required
+          minlength="5"
+          name="title"
+          type="text"
+          class="form-control"
+          id="title"
+          #title="ngModel"
+          placeholder="Inserisci il nome del piatto"
+        />
+        <div
+          *ngIf="title.invalid && (title.dirty || title.touched)"
+          class="col-6 mt-1"
+        >
+          <div class="small text-danger" *ngIf="title.errors?.['required']">Il nome del piatto è obbligatorio</div>
+          <div class="small text-danger" *ngIf="title.errors?.['minlength']">Il nome del piatto deve essere lungo almeno 5</div>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label for="description" class="form-label">* Descrizione</label>
+        <input
+          type="text"
+          [(ngModel)]="menuItem.description"
+          name="description"
+          class="form-control"
+          id="description"
+          placeholder="Inserisci una descrizione"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="imageUrl" class="form-label">URL immagine</label>
+        <input
+          type="text"
+          [(ngModel)]="menuItem.imageUrl"
+          name="imageUrl"
+          class="form-control"
+          id="imageUrl"
+          placeholder="Inserisci l'URL dell'immagine del piatto"
+        />
+      </div>
+      <div class="mb-3 col-4">
+        <label for="price" class="form-label">* Prezzo</label>
+        <input
+          [(ngModel)]="menuItem.price"
+          name="price"
+          type="number"
+          class="form-control"
+          id="price"
+          placeholder="Inserisci il prezzo"
+        />
+      </div>
+      <div class="col-12 mb-3">
+        <div class="form-check">
+          <input
+            [(ngModel)]="menuItem.available"
+            name="available"
+            class="form-check-input"
+            type="checkbox"
+            id="available"
+          />
+          <label class="form-check-label" for="available"> Disponibile </label>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <button type="submit" class="btn btn-primary" *ngIf="!isEditMode">
+          Crea il Piatto
+        </button>
+        <button type="submit" class="btn btn-primary" *ngIf="isEditMode">
+          Modifica il Piatto
+        </button>
+      </div>
+    </form>
+  </section>
+</div>
